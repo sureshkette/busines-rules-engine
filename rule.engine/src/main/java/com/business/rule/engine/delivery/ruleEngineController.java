@@ -3,7 +3,7 @@ package com.business.rule.engine.delivery;
 import com.business.rule.engine.delivery.model.ProductCategory;
 import com.business.rule.engine.delivery.model.ProductCategoryMapper;
 import com.business.rule.engine.delivery.request.RuleEngineRequest;
-import com.business.rule.engine.domain.RuleEngine;
+import com.business.rule.engine.domain.action.RuleEngine;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

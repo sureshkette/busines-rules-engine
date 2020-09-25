@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping(value = "/rule/apply", produces = {MediaType.APPLICATION_JSON_VALUE})
 @RestController
-public class ruleEngineController {
+public class RuleEngineController {
     private final RuleEngine ruleEngine;
     private String result = "";
 
-    public ruleEngineController(RuleEngine ruleEngine) {
+    public RuleEngineController(RuleEngine ruleEngine) {
         this.ruleEngine = ruleEngine;
     }
 
